@@ -1,0 +1,84 @@
+.banner-slider .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  }
+.banner-slider .carousel-inner .item,
+.banner-slider .carousel-inner .active.left,
+.banner-slider .carousel-inner .active.right {
+  opacity: 0;
+}
+.banner-slider .carousel-inner .active,
+.banner-slider .carousel-inner .next.left,
+.banner-slider .carousel-inner .prev.right {
+  opacity: 1;
+}
+.banner-slider .carousel-inner .next,
+.banner-slider .carousel-inner .prev,
+.banner-slider .carousel-inner .active.left,
+.banner-slider .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.banner-slider .carousel-control {
+  z-index: 1;
+}
+@media screen and (max-width:768px) {
+	.banner-slider .carousel-control {
+		z-index: 2;
+	}
+}
+.banner-slider, .banner-slider .carousel-inner, .banner-slider .carousel-inner .item {
+  height: 100%;
+}
+.banner-slider .carousel-control, .video-slider .carousel-control{
+	background:none;
+	width:26px;
+	height:45px;
+	text-shadow:none;
+	margin-top: -40px;
+    top: 55%;
+	font-size:0;
+	text-indent:-9999px;	
+}
+.banner-slider .carousel-control.right, .video-slider .carousel-control.right{
+	background: url('../images/slider_right_arrow.png') no-repeat center center;
+	right: 20px;
+	opacity:1;
+}
+.banner-slider .carousel-control.left, .video-slider .carousel-control.left{
+	background: url('../images/slider_left_arrow.png') no-repeat center center;
+	left: 20px;
+	opacity:1;
+}
+.slider-items{	
+	background-size:cover !important;
+	width:100%;
+	height:336px !important;
+}
+.slider1{
+	background: url('../images/slider1_bg.jpg') no-repeat center center;
+}
+.slider2{
+	background: url('../images/slider2_bg.jpg') no-repeat center center;
+}
+.slider3{
+	background: url('../images/slider2_bg.jpg') no-repeat center center;
+}
+.carousel-indicators{
+	background: rgba(0,0,0,.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 62px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 10px;
+}
+.home-slider1-cnt{
+	text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

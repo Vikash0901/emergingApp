@@ -1,0 +1,74 @@
+.process-container{
+    background-color: #fce7d1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container{
+    margin-top: 0;
+}
+.process-heading h3{
+    margin-bottom: 50px;
+    font-size: 27px;
+    font-weight: 600;
+    position: relative;
+}
+.process-heading h3::after{
+    content: " ";
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 75px;
+    height: 5px;
+    background-color: #eb6900;;
+}
+.process-sec{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.process-item{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    /* flex-wrap: wrap */
+    /* justify-content: space-between; */
+    column-gap: 10px;
+    max-width: 120px;
+}
+.process-item li{
+    display: inline-block;
+
+}
+.process-nos{
+    font-size: 24px;
+    text-align: center;
+    color: #717171;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.process-img{
+    background: url(../../../public/images/octagun.png) no-repeat center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    /* background-size: contain; */
+    /* height: 100%; */
+    padding: 15%;
+    background-size: cover;
+}
+.process-img img{
+    max-width: 100%;
+    display: inline-block;
+}
+.process-content{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin-top: 15px;
+    padding: 0 5px;
+    /* width: 40px; */
+}

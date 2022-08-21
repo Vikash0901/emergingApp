@@ -1,0 +1,131 @@
+.investible-state{
+    padding-top: 40px;
+    background-color: #eaf4ff;
+    padding-bottom: 40px;
+}
+.investible-state h2{
+    font-size: 28px;
+    font-weight: 700;
+    color:#333;
+}
+.investible-state h5{
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.investible-state h5::after{
+    position: absolute;
+    content: " ";
+    bottom: -15px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    width: 75px;
+    height: 5px;
+    background-color: #eb6900;
+}
+.invest-root{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.invest-root-progress{
+    margin: 50px 0;
+    padding: 0;
+    /* display: flex; */
+    list-style-type: none;
+    /* justify-content: space-between; */
+}
+.invest-progress-icon{
+    background-color: #171f51;
+    border-radius: 50%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+.invest-progress-icon img{
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    margin-top: 15px;
+    
+}
+.invest-heading{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.invest-progress-icon li h3{
+    font-size: 20px;
+    font-weight: normal !important;
+    margin-top: 0px;
+    /* margin-bottom: -50px; */
+}
+.invest-card{
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    border-radius: 10px !important;
+    overflow: hidden;
+    max-width:250px ;
+    
+
+    /* border: .5px solid black; */
+    /* box-shadow: 1 1 1 blue; */
+}
+.card-body1{
+    background-color: white ;
+    margin: 0%;
+    padding: 35px 15px !important;
+    /* border-radius: 40px; */
+    /* background-repeat: no-repeat; */
+}
+.card-head span{
+    color: #FF6B00;
+    font-size: 20px;
+}
+.card-body-sector{
+    color: grey;
+}
+.card-body-sector .energy{
+    color:black;
+    font-weight:bold;
+}
+.card-body-sub-sector{
+    color: grey;
+    margin-top: 12px;
+}
+.card-body-sub-sector .generation{
+    color: black;
+    font-weight: bold;
+}
+
+.invest-card-img{
+    position: relative;
+    opacity: 0.3;
+}
+.invest-card-img img{
+    position: absolute;
+    right: 5px;
+    bottom: 15px;
+    height: 30px;
+}
+.card-value span{
+    font-size: 24px;
+    color: #eb6900;
+    margin-top: 12px;
+    font-weight: bold;
+}
+.card-button{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.card-button .btn{
+    background-color: #171f51;
+    padding: 7px 16px;
+} 

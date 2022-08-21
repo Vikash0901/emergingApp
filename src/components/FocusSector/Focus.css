@@ -1,0 +1,72 @@
+.focus-section{
+    background: url(../../../public/image/focus_sec_bg.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+.section-heading{
+    position: relative;
+}
+.section-heading h3::after{
+    content: " ";
+    position: absolute;
+    width: 75px;
+    height: 5px;
+    background-color: #eb6900;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -15px;
+}
+.section-heading h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: white;
+}
+.focus-sector{
+    /* padding-bottom: 40px; */
+    padding: 10px 15px 40px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    /* align-items: center; */
+}
+.focus-data{
+    display: flex;
+    border-radius: 50px;
+    background-color:white;
+    padding: 5px 10px;
+    max-width: 35%;
+    margin-bottom: 40px;
+    align-items: center;
+    /* padding-bottom: 40px; */
+    
+}.focus-img{
+    padding-right: 15px;
+}
+.focus-img img{
+    vertical-align:middle;
+    background-color: black;
+    border-radius: 50%;
+    max-width: 82px;
+    align-items: center;
+
+}
+.focus-img img:hover{
+    cursor: pointer;
+    background-color: #ee871b;
+}
+.focus-content{
+    padding: 5px 15px 5px 10px;
+    text-align: center;
+    /* padding-left: 10px; */
+}
+.focus-content h4{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.focus-content p{
+    margin: 0;
+}

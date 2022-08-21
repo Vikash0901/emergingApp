@@ -1,0 +1,13 @@
+.navbar-nav{
+    margin: auto;
+    /* color: white !important;  */
+} 
+.nav-item{
+    padding: 5px;
+}
+.nav-item:hover{
+    background-color: orange;
+}
+.navbar{
+    padding: 0 !important;
+}

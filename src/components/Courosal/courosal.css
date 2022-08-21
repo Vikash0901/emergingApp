@@ -1,0 +1,14 @@
+.carousel-container{
+    background-image: url('../../../public/image/slider1_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 51vh; */
+}
+.carousel{
+    width: 65%;
+    margin: auto;
+    padding: 0;
+}
+.carousel-item img{
+    height: 51vh;
+}

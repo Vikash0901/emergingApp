@@ -1,0 +1,39 @@
+.mid-header{
+    padding: 0 15px;
+}
+.mid-header-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid-header-logo {
+    display: flex;
+    text-decoration: none;
+
+}
+.mid-header-logo img{
+    height: 65px;
+}
+.mid-header-logo h3, .mid-header-logo h5{
+    margin-left: 10px;
+    color: black;
+}
+.header-buttons-div ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0;
+    /* column-gap: 10px; */
+}
+.header-buttons-div{
+    display: flex;
+}
+.header-buttons{
+    background-color: #ee871b;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    /* padding: 6px 18px; */
+}
